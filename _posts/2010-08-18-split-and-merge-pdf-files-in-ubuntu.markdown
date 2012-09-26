@@ -1,0 +1,43 @@
+---
+date: '2010-08-18 11:41:31'
+layout: post
+slug: split-and-merge-pdf-files-in-ubuntu
+status: publish
+title: Split and merge pdf files in Ubuntu
+wordpress_id: '362'
+categories:
+- Tutorials
+tags:
+- debian
+- pdf
+- ubuntu
+---
+
+The easiest way to split, merge or edit pdf files in Ubuntu is to use pdftk utility. This rather old (latest version was released in 2006) but still simple and powerful program can be installed in Ubuntu (Debian or any deb-family Linux distribution) by the following command in terminal:
+
+
+    
+    sudo aptitude install pdftk
+
+
+(if you run Fedora, RedHat or CentOS use this one: _yum install pdftk_)
+
+**Split large pdf into many one-page files:**
+
+
+    
+    pdftk largepdfile.pdf burst
+
+
+
+(as the result you will get many small files like pg_0001.pdf, pg_0002.pdf and so on).
+
+**Merge files into one PDF file:**
+
+
+    
+    pdftk *.pdf cat output onelargepdfile.pdf
+
+
+
+pdftk is extremely powerful and makes it possible to do almost anything with input pdf files. Thus above two commands are just examples showing how to split and merge pdf files in Ubuntu easily.

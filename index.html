@@ -1,0 +1,26 @@
+---
+layout: default
+title: Home
+description: Sysadmin, Photographer, Technologist, Hacker.
+---
+<h2>Recent blog posts</h2>
+
+<ul class="post-list">
+{% for post in site.posts limit: 8 %}
+<li><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %d %Y' }}</time>
+<a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<p>&rarr; <a href="/blog.html">Browse all {{ site.posts | size }} posts</a></p>
+
+<h2>Open source projects</h2>
+
+<div class="project-list">
+<h4><a title="Area53 on GitHub" href="https://github.com/mariusv/Area53">Area53</a></h4>
+<p>After taking a quick look at Boto’s Route53 interface, I realized that it was just way too cumbersome and awkward to be useful. 
+I decided to make it a little more user-friendly, so without further ado, I introduce <a href="http://www.mariusv.com/python-interface-for-aws-route53">Area53.</a></p>
+
+</div>
+
+<p>&rarr; See more at <a href="http://github.com/mariusv">github.com/mariusv</a></p>

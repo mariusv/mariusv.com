@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>{% if page.title != 'Home' %}{{ page.title }} - {% endif %}{{ site.title }} | Once a geek, forever a geek…</title>
+<meta name="description" content="{{ page.description }}" />
+<meta name="keywords" content="{{ page.categories | join: ',' }},{{ page.keywords | join: ',' }} programming, startups, sysadmin, entrepreneurship, ruby, linux" />
+<meta name="author" content="Marius Voila" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<link rel="shortcut icon" href="/resources/favicon.png" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ site.subscribe }}" />
+<link rel="stylesheet" type="text/css" href="/css/main.css" />
+<link rel="stylesheet" type="text/css" href="/css/highlight.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<header>
+<h1><a href="/">{{ site.title }}</a></h1>
+<nav>
+<a href="/about.html" title="About me">about</a> &bull;
+<a href="/wish.html" title="Wishlist">wishlist</a> &bull;
+<a href="/rent-me.html" title="Rent Me">rent me</a> &bull;
+<a id="subscribe-link" href="{{ site.subscribe }}" title="Go to my RSS feed" rel="nofollow">subscribe</a>
+</nav>
+</header>
+<div id="main">
+{{ content }}
+</div>
+<footer>
+<p>Copyright &copy; 2010-{{ 'now' | date: '%Y' }} <a href="/about.html">Marius Voila</a>. Some rights reserved.</p>
+<p><a id="cc-logo" title="Creative Commons License" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"></a>
+Except where otherwise <a href="https://github.com/mariusv/mariusv.com#readme">noted</a>, content on this site is licensed under a<br />
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</p>
+</footer>
+<script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>

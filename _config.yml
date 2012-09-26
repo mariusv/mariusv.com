@@ -1,0 +1,15 @@
+markdown: rdiscount
+pygments: true
+permalink: /:title
+title: mariusv.com
+url: http://mariusv.com
+subscribe: http://feeds.feedburner.com/mariusv
+exclude: [ README.md ]
+twitter_id: 173529817 # http://idfromuser.com
+twitter_username: mariusvoila
+github: mariusv
+facebook: marius.voila
+google: 114522783618340495104/about
+linked: mariusvoila
+lastfm: mariusvoila
+
