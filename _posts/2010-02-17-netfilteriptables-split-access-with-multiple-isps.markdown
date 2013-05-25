@@ -31,7 +31,7 @@ The article focuses on using the standard iproute2 tool to allow the box to atte
    2. There is no real control over which packets end up over which route, other than some basic metrics such as source IP and destination IP.
    3. Certain long established TCP connections such as MSN or IRC die after the route cache expires and the packets begin being routed over the other connection. Logically, there should be a fix for this or theres a bug in my script, either way I gave up digging after a while, and just forced connections to given IPs over the same route each time.
 
-Iâ€™ve recently decided to give this a go in netfilter purely. My environment is a router with a number of LAN devices, with eth0 being the LAN interface (192.168.1.0/24), while eth1 and eth2 are separate ISP links with public IPs.
+I've recently decided to give this a go in netfilter purely. My environment is a router with a number of LAN devices, with eth0 being the LAN interface (192.168.1.0/24), while eth1 and eth2 are separate ISP links with public IPs.
 
 Firstly my iproute2 script:
 
@@ -59,9 +59,9 @@ Firstly my iproute2 script:
 
 
 
-What weâ€™ve done at this point is create two tables, and set up the routers for each table, then specify that any packets marked as â€˜1â€² will leave via table 1 (i.e. routed out over eth1), and any packets marked â€˜2â€² will leave via table 2 (i.e. routed out over eth2). We will then mark the packets with iptables.
+What we've done at this point is create two tables, and set up the routers for each table, then specify that any packets marked as â€˜1â€² will leave via table 1 (i.e. routed out over eth1), and any packets marked â€˜2â€² will leave via table 2 (i.e. routed out over eth2). We will then mark the packets with iptables.
 
-Now, Iâ€™ve only done basic INPUT/FORWARD/OUTPUT chain firewalling with iptables so Iâ€™d very much appreciate any feedback on how this can be improved or fixed, specifically in regards to security. Hereâ€™s the IP tables script:
+Now, I've only done basic INPUT/FORWARD/OUTPUT chain firewalling with iptables so I'd very much appreciate any feedback on how this can be improved or fixed, specifically in regards to security. Here's the IP tables script:
 
 
     
@@ -114,8 +114,8 @@ Now, Iâ€™ve only done basic INPUT/FORWARD/OUTPUT chain firewalling with ipt
     ${IPTABLES} -t mangle -A PREROUTING -i eth0 -p tcp -m tcp -m state â€“state ESTABLISHED,RELATED -j CONNMARK â€“restore-mark
     
     #balance ICMP
-    ${IPTABLES} -t mangle -A PREROUTING -i eth0 -p icmp -m icmp -m state â€“state NEW -m statistic â€“mode nth â€“every 2 â€“packet 0 -j M1
-    ${IPTABLES} -t mangle -A PREROUTING -i eth0 -p icmp -m icmp -m state â€“state NEW -m statistic â€“mode nth â€“every 2 â€“packet 1 -j M2
+    ${IPTABLES} -t mangle -A PREROUTING -i eth0 -p icmp -m icmp -m state â€“state NEW -m statistic â€“mode nth â€“every 2 packet 0 -j M1
+    ${IPTABLES} -t mangle -A PREROUTING -i eth0 -p icmp -m icmp -m state â€“state NEW -m statistic â€“mode nth â€“every 2 packet 1 -j M2
     
     #balance UDP
     ${IPTABLES} -t mangle -A PREROUTING -i eth0 -p udp -m udp -m statistic â€“mode nth â€“every 2 â€“packet 0 -j M1
@@ -149,4 +149,4 @@ At this point, the box itself has no default gateway and will therefore not have
 
 
 
-This is not ideal but as itâ€™s the router itself and I donâ€™t really care about itâ€™s internet access. The LAN is still routed using our iptables method above.
+This is not ideal but as it's the router itself and I don't really care about it's internet access. The LAN is still routed using our iptables method above.

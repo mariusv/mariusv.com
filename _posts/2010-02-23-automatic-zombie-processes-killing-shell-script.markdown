@@ -14,12 +14,12 @@ tags:
 - shell
 ---
 
-Here is a shell script example that can be run by cron for automatic killing of â€œzombieâ€ processes in Linux system:
+Here is a shell script example that can be run by cron for automatic killing of zombie processes in Linux system:
 
 
 
 
-    
+    {% highlight bash %}
     #!/bin/bash
     # Zombie processes killing script.
     # Must be run under root.
@@ -52,7 +52,7 @@ Here is a shell script example that can be run by cron for automatic killing of 
     ;;
     esac
     exit 0
-    
+    {% endhighlight %}
 
 
 
