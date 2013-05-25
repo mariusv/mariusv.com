@@ -30,7 +30,7 @@ body > footer {
 body {
     background-color: #333333;
     color: #DCDCCC;
-    font: 18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 20px;
     overflow-y: scroll !important;
     text-rendering: optimizelegibility;

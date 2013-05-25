@@ -10,9 +10,9 @@ layout: default
 <header>
 <h2><a title="Permalink to {{ page.title }}" href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h2>
 Posted by <a href="/about.html">Marius Voila</a>
-on <time datetime="{{ page.date | date: '%d-%m-%Y' }}" pubdate="pubdate">{{ page.date | date_to_string }}</time>
-in Kansas City, MO
-— <a id="dsq-comment-count" data-disqus-identifier="{{ page.url }}" href="{{ page.url }}#disqus_thread">0 comments</a>
+on {{ page.date | date: "%B %d, %Y" }}
+in London, U.K .
+— <a id="dsq-comment-count" data-disqus-identifier="{{ page.url }}" href="{{ page.url }}#disqus_thread">0 comments</a> This post contains {{ page.content | number_of_words }} words
 </header>
 {{ content }}
 <footer>
