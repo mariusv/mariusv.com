@@ -2,7 +2,7 @@
 
 """
 jekyll-post - this is a simple script that will create and initialize a new
-Jekyll post file. The default is a markdown file (.md) and the yaml options
+Jekyll post file. The default is a markdown file (.markdown) and the yaml options
 listed below will be part of the initialization.
 
 jekyll-post [-w] [-d date] [title]
