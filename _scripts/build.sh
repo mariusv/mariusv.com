@@ -32,7 +32,7 @@ $YUICOMPRESSOR --type css -o _site/css/main.css _site/css/main.css
 
 # Push the site to the server.
 printf '\n\e[1;34m%s\e[0m\n\n' 'Pushing site to EC2 instance...'
-rsync -rzc --progress --stats --delete _site/ ec2-v01:~/jnrbsn.com
+rsync -rzc --progress --stats --delete _site/ ec2-v01:~/mariusv.com
 
 # Publish the site.
 printf '\n\e[1;34m%s\e[0m\n\n' 'Publishing site...'
