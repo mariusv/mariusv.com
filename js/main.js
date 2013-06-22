@@ -82,7 +82,7 @@ if (typeof mariusv_slug !== '/') {
 
 
     // Second part of Google Analytics tracking code.
-    if (location.hostname === 'mariusv.com') {
+    if (location.hostname === 'www.mariusv.com') {
         loadExternalJS('http://www.google-analytics.com/ga.js');
     }
 
