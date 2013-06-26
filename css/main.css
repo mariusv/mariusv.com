@@ -119,6 +119,7 @@ body > header > h1 {
 }
 body > header > h1 a {
     color: #666;
+    font-family:Raleway;
 }
 body > header > h1 a:hover {
     color: #333;
@@ -139,6 +140,19 @@ body > header > nav {
 body > header > nav > a {
     display: inline-block;
     margin: 0 6px;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Raleway"), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/IczWvq5y_Cwwv_rBjOtT0w.woff) format("woff");
+}
+
+#sub-title {
+  color:#999999;
+  font-family:Raleway;
+  font-size:16px;
 }
 #subscribe-link {
     background: url('/resources/default.png') no-repeat left 2px;
@@ -551,3 +565,5 @@ body > footer {
 .follow:hover .links { display:block; }
 
 /*clases for links and some colors i wanna different*/
+
+
