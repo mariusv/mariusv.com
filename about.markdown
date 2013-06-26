@@ -22,7 +22,7 @@ description: My name is Marius Voila. I grew up in Sibiu, Romania and I've been 
 {% if site.google %}<a href="http://plus.google.com/{{ site.google }}">google+</a>{% endif %}   
 </div>
 </div>
-<a title="Marius Voila's Gravatar" href="http://gravatar.com/jnrbsn"><img class="gravatar" alt="Gravatar image" height="150" width="150" src="http://gravatar.com/avatar/ed187d05ba76eb9b64ee3f59a20aba0c?size=150" /></a>
+<a title="Marius Voila's Gravatar" href="http://about.me/mariusv"><img class="gravatar" alt="Gravatar image" height="150" width="150" src="http://gravatar.com/avatar/ed187d05ba76eb9b64ee3f59a20aba0c?size=150" /></a>
 Hey there. My name is Marius Voila curently I live in London, United Kingdom. I'm a
 <a href="anime.html">Anime</a> lover and since 4 years a go I started to really enjoy <a href="http://pictures.mariusv.com">photography</a> and bicycling. If you wanna send my a gift and don't know what you can have a peak at my <a href="/wish.html">wishlist</a> and get inspired (I prefer original present ideas but if you don't wanna risk you can use the list :-) ). </p>
 
