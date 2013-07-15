@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Experience
-description: My name is Marius Voila. I grew up in Sibiu, Romania and I've been living in Horsens
-  City, Denmark since July 2011. I'm a Linux system administrator, a photographer, a technologist, and
+description: My name is Marius Voila. I grew up in Sibiu, Romania and I've been living in London
+  City, United Kingdom since October 2012. I'm a Linux system administrator, a photographer, a technologist, and
   a hacker.
 ---
 
@@ -20,6 +20,8 @@ description: My name is Marius Voila. I grew up in Sibiu, Romania and I've been 
 *    HeartBeat, DRBD & MySQL replication HA load-balancing techniques
 *    Years of experience with VMware, Xen, XenServer, OpenVZ.
 *    Proficient in configuring Nagios, Munin, Jenkins monitoring systems
+*	 [OpenStack](http://www.openstack.org) deploymens
+* 	 [Swift](http://docs.openstack.org/developer/swift/) ( is a highly available, distributed, eventually consistent object/blob store )
 *    Windows Server 2003/2008 (IIS, Active Directory, general management)
 *    Mac OS X Server (ServerAdmin / Workgroup Manager, OpenDirectory, general management)
 
