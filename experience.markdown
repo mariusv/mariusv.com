@@ -2,7 +2,7 @@
 layout: default
 title: Experience
 description: My name is Marius Voila. I grew up in Sibiu, Romania and I've been living in London
-  City, United Kingdom since October 2012. I'm a Linux system administrator, a photographer, a technologist, and
+  , United Kingdom since October 2012. I'm a Linux system administrator, a photographer, a technologist, and
   a hacker.
 ---
 
