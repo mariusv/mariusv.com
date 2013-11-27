@@ -6,7 +6,7 @@ and hosted on [Amazon EC2](http://aws.amazon.com/ec2/).
 
 ## LICENSE
 
-The following files, directories, and their contents are Copyright Jonathan Robson and licensed under a
+The following files, directories, and their contents are Copyright Marius Voila and licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 * _\_posts_
