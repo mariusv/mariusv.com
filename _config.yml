@@ -1,7 +1,7 @@
 markdown: rdiscount
 pygments: true
 permalink: /:title
-title: mariusv.com
+name: mariusv.com
 desc: Watch as I awkwardly stumble through life
 url: http://mariusv.com
 subscribe: http://feeds.feedburner.com/mariusv
