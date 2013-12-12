@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 <meta charset="UTF-8" />
-<title>{% if page.title != 'Home' %}{{ page.title }} - {% endif %}{{ site.title }} | Once a geek, forever a geek…</title>
+<title>{% if page.title != 'Home' %}{{ page.title }} - {% endif %}{{ site.name }} | Once a geek, forever a geek…</title>
 <meta name="description" content="{{ page.description }}" />
 <meta name="keywords" content="{{ page.categories | join: ',' }},{{ page.keywords | join: ',' }} programming, startups, sysadmin, entrepreneurship, ruby, linux" />
 <meta name="author" content="Marius Voila" />
@@ -17,7 +17,7 @@
 </head>
 <body>
 <header>
-<h1><a href="/">{{ site.title }}</a></h1>
+<h1><a href="/">{{ site.name }}</a></h1>
 <div id="sub-title">{{site.desc}}</div>
 <nav>
 <a href="/about.html" title="About me">about</a> &bull;
