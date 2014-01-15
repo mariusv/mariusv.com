@@ -16,16 +16,17 @@ One of my challenges with using a mac was the lack of ssh-copy-id and in the beg
 
 There are 3 options on how to install it:
 
-and my favorite because I use macports is:
+First one and my favourite because I use macports is:
 
 `sudo port install openssh +ssh_copy_id`
 
-using brew:
+Second option is using brew:
 
 `brew install ssh-copy-id`
 
- is the curl way:
+ And the last one is the curl way:
 
-   `sudo curl https://raw.github.com/beautifulcode/ssh-copy-id-for-OSX/master/ssh-copy-id.sh -o /usr/local/bin/ssh-copy-id`
-   `sudo chmod +x /usr/local/bin/ssh-copy-id`
-
+{% highlight bash %}
+sudo curl https://raw.github.com/beautifulcode/ssh-copy-id-for-OSX/master/ssh-copy-id.sh -o /usr/local/bin/ssh-copy-id 
+sudo chmod +x /usr/local/bin/ssh-copy-id
+{% endhighlight %}
