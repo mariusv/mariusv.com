@@ -29,7 +29,7 @@ Run the following commands from the prompt:
 
 > mv /etc/sysctl.conf sysctl.bak
 cd /etc
-wget http://www.mariusv.com/x/sysctl.conf
+wget http://www.mariusv.com/resources/sysctl.conf
 /sbin/sysctl -p
 /sbin/sysctl -w net.ipv4.route.flush=1
 

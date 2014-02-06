@@ -18,5 +18,5 @@ MySQL **must not** swap. This can be managed via /proc/sys/vm/swappiness, this v
 {% highlight bash %}
 $ sudo sysctl -w vm.swappiness=0
 $ sudo echo "vm.swappiness=0" >> /etc/sysctl.conf
-$ sudo swapoff -a && swapon -a
+$ sudo swapoff -a && sudo swapon -a
 {% endhighlight %}
