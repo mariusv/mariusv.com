@@ -19,7 +19,7 @@ Here we go with the steps which you need to follow so you can get it working:
 
 1. We install Apache Tomcat7 which is easy because we find it in the repo:
 
-`apt-get install -y tomcat7 tomcat7-admin openjdk-7-jre-headless`
+`apt-get install -y tomcat7 tomcat7-admin tomcat7-common`
 
 2. We download and configure the Solr instance:
 
