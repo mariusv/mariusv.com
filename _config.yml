@@ -1,5 +1,5 @@
 markdown: rdiscount
-highlighter: true
+highlighter: pygments
 permalink: /:title
 name: mariusv.com
 desc: Watch as I awkwardly stumble through life
