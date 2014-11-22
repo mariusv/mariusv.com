@@ -38,7 +38,7 @@ import subprocess
 import os.path
 import sys
 
-DEFAULT_EXT = 'markdown'
+DEFAULT_EXT = 'md'
 
 def main():
     # parse the arguments
