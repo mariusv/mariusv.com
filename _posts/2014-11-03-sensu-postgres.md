@@ -20,7 +20,7 @@ After looking around on how to fix this issue I came up with this solution:
 
 {% highlight bash %}
 
-$ apt-get install libpq-dev && gem install pq
+$ apt-get install libpq-dev && gem install pg
 
 {% endhighlight %}
 
