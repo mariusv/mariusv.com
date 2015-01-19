@@ -51,3 +51,16 @@ $ nova list |awk '{print $12}' |grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0
 {%highlight bash%}
 $ dscacheutil -flushcache
 {% endhighlight %}
+
+***Check MySQL top 50 tables by size descending*** :
+
+{% highlight mysql %}
+SELECT * FROM
+(SELECT TN TableName,LPAD(REPLACE(FORMAT(TS/POWER(1024,1),2),',',''),Z,' ') KB,
+LPAD(REPLACE(FORMAT(TS/POWER(1024,2),2),',',''),Z,' ') MB,
+LPAD(REPLACE(FORMAT(TS/POWER(1024,3),2),',',''),Z,' ') GB
+FROM (SELECT CONCAT(table_schema,'.',table_name) TN,
+(data_length+index_length) TS FROM information_schema.tables
+WHERE table_schema NOT IN ('information_schema','mysql','performance_schema')
+AND engine IS NOT NULL) A,(SELECT 13 Z) B ORDER BY TS DESC) MMM LIMIT 50;
+{% endhighlight %}
