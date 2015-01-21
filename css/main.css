@@ -87,23 +87,9 @@ blockquote {
     margin: 0 0 20px 40px;
     padding-left: 8px;
 }
-pre, code {
+/*pre, code {
     font: 13px/18px Menlo, Monaco, 'Bitstream Vera Sans Mono', 'Courier New', monospace;
-}
-pre {
-	background: none repeat scroll 0 0 #111111;
-    background-color: #111111;
-    /*border: 1px solid #ccc;*/
-    margin: 0 0 20px 0;
-    padding: 7px;
-}
-code {
-    background: none repeat scroll 0 0 #111111;
-    border-radius: 4px 4px 4px 4px;
-    color: #C3BF9F;
-    letter-spacing: 0;
-    padding: 2px;
-}
+}*/
 
 
 
