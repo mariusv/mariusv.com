@@ -65,7 +65,7 @@ WHERE table_schema NOT IN ('information_schema','mysql','performance_schema')
 AND engine IS NOT NULL) A,(SELECT 13 Z) B ORDER BY TS DESC) MMM LIMIT 50;
 {% endhighlight %}
 
-***Nicer format for `git log`*** :
+***Nicer format for git log*** :
 {% highlight bash %}
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 {% endhighlight %}
