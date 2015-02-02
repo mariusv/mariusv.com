@@ -69,3 +69,8 @@ AND engine IS NOT NULL) A,(SELECT 13 Z) B ORDER BY TS DESC) MMM LIMIT 50;
 {% highlight bash %}
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 {% endhighlight %}
+
+***See all packets hitting our wireless interface*** :
+{% highlight bash %}
+tcpdump -Ii en0
+{% endhighlight %}
