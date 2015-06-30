@@ -48,9 +48,9 @@ If you look at it you see that the user which is part of the `Billing` group has
 
 ***Solution :***
 
-{%raw%}
-The account owner needs to go to the [Account Settings](https://console.aws.amazon.com/billing/home#/account) page for the account using the root (account) password. (Note that IAM users, even with full permissions, cannot get to this page.) On the account settings page, there's a section titled ***IAM User Access to Billing Information***. The account owner should click ***Edit***, select the ***Activate IAM Access*** check box, and then click ***Update***
-{%endraw%}
+
+> The account owner needs to go to the [Account Settings](https://console.aws.amazon.com/billing/home#/account) page for the account using the root (account) password. (Note that IAM users, even with full permissions, cannot get to this page.) On the account settings page, there's a section titled ***IAM User Access to Billing Information***. The account owner should click ***Edit***, select the ***Activate IAM Access*** check box, and then click ***Update***
+
 
 As [Porky Pig](https://en.wikipedia.org/wiki/Porky_Pig) said "[Yep Yep that's all folks!!!](http://www.youtube.com/watch?v=gBzJGckMYO4)"
 
