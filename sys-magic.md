@@ -74,3 +74,9 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 {% highlight bash %}
 tcpdump -Ii en0
 {% endhighlight %}
+
+***Usefull Bash alias to find your Public IP***
+{% highlight bash %}
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+{% endhighlight %}
+
