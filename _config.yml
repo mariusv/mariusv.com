@@ -3,7 +3,7 @@ highlighter: pygments
 permalink: /:title
 name: mariusv.com
 desc: Watch as I awkwardly stumble through life
-url: http://mariusv.com
+url: https://www.mariusv.com
 subscribe: http://feeds.feedburner.com/mariusv
 exclude: [ README.md ]
 twitter_id: 107022949 # http://idfromuser.com
