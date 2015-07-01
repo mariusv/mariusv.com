@@ -24,9 +24,9 @@ description: My name is Marius Voila. I grew up in Sibiu, Romania and I've been 
 </div>
 <a title="Marius Voila's Gravatar" href="https://about.me/mariusv"><img class="gravatar" alt="Gravatar image" height="150" width="150" src="https://gravatar.com/avatar/ed187d05ba76eb9b64ee3f59a20aba0c?size=150" /></a>
 Hey there. My name is Marius Voila curently I live in London, United Kingdom. I'm a
-<a href="anime.html">Anime</a> lover and since 4 years a go I started to really enjoy <a href="http://pictures.mariusv.com">photography</a> and bicycling. If you wanna send my a gift and don't know what you can have a peak at my <a href="/wish.html">wishlist</a> and get inspired (I prefer original present ideas but if you don't wanna risk you can use the list :-) ). </p>
+<a href="anime.html">Anime</a> lover and since 4 years a go I started to really enjoy <a href="https://www.flickr.com/photos/mariusvoila/">photography</a> and bicycling. If you want to send me a gift and don't know what you can have a peak at my <a href="/wish.html">wishlist</a> and get inspired (I prefer original present ideas but if you don't wanna risk you can use the list :-) ). </p>
 
-I'm a Linux sysadmin with over [14 years of experience](/experience.html), and doing [DevOps](http://en.wikipedia.org/wiki/DevOps) before I even knew DevOps was a thing. I'm specialising in deployments, cloud computing, load balancing, scaling and performance tuning, as well as developing disaster-recovery best practices such as backups and restorations, firewalls, and server security audits.
+I'm a Linux sysadmin with over [14 years of experience](/experience.html), and doing [DevOps](http://en.wikipedia.org/wiki/DevOps) before I even knew DevOps was a thing. I'm specialising in deployments, Cloud Computing ([AWS](https://aws.amazon.com/), [Rackspace](https://www.rackspace.com/), [Azure](https://azure.microsoft.com/en-gb/), [OpenStack](https://www.openstack.org/)), load balancing, scaling and performance tuning, as well as developing disaster-recovery best practices such as backups and restorations, firewalls, and server security audits.
 
 If you like what you see, you should consider subscribing to my
 <a href="{{ site.subscribe }}">RSS feed</a> or following me on
@@ -40,7 +40,7 @@ On the other hand if you have a strong wish to sell Viagra or Cialis at discount
 Also, I'm very interested hearing about your 4 billion dollar fortune stuck in some Bank located in Kongo or Nigeria and how awful is the life of some Ghanian princess after her father's death, in either case again
 please do not hesitate to contact [spam@mariusv.com](mailto:spam@mariusv.com).
 
-Visit my <a href="https://github.com/mariusv">github</a> page to find out more about what I'm hacking on at the moment and subscribe to the [rss feed](http://feeds.feedburner.com/mariusv) in order to receive the latest
+Visit my <a href="https://github.com/mariusv">GitHub</a> page to find out more about what I'm hacking on at the moment and subscribe to the [rss feed](http://feeds.feedburner.com/mariusv) in order to receive the latest
 and greatest updates while they are <em>hot</em>. You don't want to miss a thing, right?
 
 
