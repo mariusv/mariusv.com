@@ -1,5 +1,5 @@
 ---
-date: '2015-09-10 12:30:50'
+date: '2015-10-29 13:08:50'
 layout: post
 slug: how-to-setup-aws-s3-access-from-specific-ips
 title: How to Setup AWS S3 Access From Specific IPs
