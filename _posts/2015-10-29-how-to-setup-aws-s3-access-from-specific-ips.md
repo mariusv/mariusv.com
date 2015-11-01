@@ -28,7 +28,7 @@ I started by reviewing the [AWS documentation](http://docs.aws.amazon.com/Amazon
             "Action": ["s3:ListBucket", "s3:PutObject", "s3:DeleteObject", "s3:GetObject"],
             "Resource": "arn:aws:s3:::my-special-bucket/*",
             "Condition": {
-                "NotIpAddress": {
+                "IpAddress": {
                     "aws:SourceIp": "project_ip/32"
                 }
             }
