@@ -38,13 +38,13 @@ if (typeof mariusv_slug !== '/') {
         if (shareButtonDiv) {
             // Twitter tweet button <http://twitter.com/about/resources/tweetbutton>.
             shareButtonDiv.innerHTML += '<a class="twitter-share-button" '+
-                'href="http://twitter.com/share" data-count="none" data-text="'+mariusv_title+
+                'href="https://twitter.com/share" data-count="none" data-text="'+mariusv_title+
                 '" data-url="'+mariusv_url+'" data-via="mariusvoila">Tweet</a>';
-            loadExternalJS('http://platform.twitter.com/widgets.js');
+            loadExternalJS('https://platform.twitter.com/widgets.js');
 
             // Facebook like button <http://developers.facebook.com/docs/reference/plugins/like/>.
             shareButtonDiv.innerHTML += '<iframe class="facebook-like-button" '+
-                'src="http://www.facebook.com/plugins/like.php?href='+mariusv_url+
+                'src="https://www.facebook.com/plugins/like.php?href='+mariusv_url+
                 '&amp;layout=button_count&amp;show_faces=true&amp;width=50&amp;action=like&amp;'+
                 'colorscheme=light&amp;height=20" scrolling="no" frameborder="0" '+
                 'allowTransparency="true"></iframe>';
@@ -52,19 +52,19 @@ if (typeof mariusv_slug !== '/') {
             // Linkedin share buttom <http://www.linkedin.com/publishers>.
             shareButtonDiv.innerHTML += '<script type="in/share" data-url="'+mariusv_url+
                 '"></script>';
-            loadExternalJS('http://platform.linkedin.com/in.js');
+            loadExternalJS('https://platform.linkedin.com/in.js');
 
             // Google +1 button <http://www.google.com/webmasters/+1/button/>.
             shareButtonDiv.innerHTML += '<g:plusone size="medium" count="false" href="'+mariusv_url+
                 '"></g:plusone>';
-            loadExternalJS('http://apis.google.com/js/plusone.js');
+            loadExternalJS('https://apis.google.com/js/plusone.js');
         }
 
         // Load Disqus comments.
         var commentDiv = document.getElementById('disqus_thread');
         if (commentDiv) {
-            loadExternalJS('http://mariusvoila.disqus.com/embed.js');
-            loadExternalJS('http://mariusvoila.disqus.com/count.js');
+            loadExternalJS('https://mariusvoila.disqus.com/embed.js');
+            loadExternalJS('https://mariusvoila.disqus.com/count.js');
         }
 
         // Add target="_blank" to any links that go outside this domain.
@@ -83,7 +83,7 @@ if (typeof mariusv_slug !== '/') {
 
     // Second part of Google Analytics tracking code.
     if (location.hostname === 'www.mariusv.com') {
-        loadExternalJS('http://www.google-analytics.com/ga.js');
+        loadExternalJS('https://www.google-analytics.com/ga.js');
     }
 
 
