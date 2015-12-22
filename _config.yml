@@ -1,5 +1,5 @@
-markdown: rdiscount
-highlighter: pygments
+kramdown:
+  input: GFM
 permalink: /:title
 name: mariusv.com
 desc: Watch as I awkwardly stumble through life
