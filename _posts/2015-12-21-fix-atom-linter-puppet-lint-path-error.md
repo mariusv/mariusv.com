@@ -25,7 +25,7 @@ is not working and needs to be:
 {%endhighlight%}
 So all you have to do is go ahead and edit this file `~/.atom/config.cson` and add the working code above and you are good to go. :-)
 
-##Conclusion:
+## Conclusion:
 
 Atom is not bad at all but if you want something to just work then keep using whatever you are using now. I will play with Atom for a bit more because I like hacking my way around stuff :-)
 
