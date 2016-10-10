@@ -80,3 +80,7 @@ tcpdump -Ii en0
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 {% endhighlight %}
 
+***Ansible inventory file from Consul***
+{% highlight bash %}
+curl consul.domain:8500/v1/catalog/nodes | jq '.[]|.Address' | tr -d '"'
+{% endhighlight %}
